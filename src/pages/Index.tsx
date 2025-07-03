@@ -174,7 +174,7 @@ const Index = () => {
         <div className="lg:col-span-1">
           <Card className="bg-white shadow-sm">
             <CardHeader className="pb-4">
-              <CardTitle className="text-lg font-medium text-gray-800">即将到来的活动</CardTitle>
+              <CardTitle className="text-lg font-medium text-gray-800 font-semibold mx-[25px] my-[135px]">即将到来的活动</CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
               {upcomingEvents.map((event) => (
